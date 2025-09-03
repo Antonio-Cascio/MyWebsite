@@ -1,5 +1,5 @@
 import React from 'react';
-import KitchenKing from '../Videos/KitchenKing-Preview.mov';
+import PreviewVideo from './PreviewVideo';
 import { useNavigate } from 'react-router-dom';
 import githubLogo from '../images/Github.png';
 
@@ -21,7 +21,7 @@ function Projects() {
             }}>
                 Projects
             </h2>
-            
+
             <div style={{
                 maxWidth: '1200px',
                 margin: '0 auto',
@@ -37,7 +37,7 @@ function Projects() {
                     gap: '40px',
                     alignItems: 'flex-start'
                 }}>
-                    {/* Left Side - Project Screenshot/Video */}
+
                     <div style={{
                         flex: '1',
                         maxWidth: '600px'
@@ -48,18 +48,8 @@ function Projects() {
                             boxShadow: '0 10px 30px rgba(0, 0, 0, 0.2)',
                             border: '1px solid rgba(51, 107, 135, 0.2)'
                         }}>
-                            <video 
-                                src={KitchenKing} 
-                                autoPlay 
-                                loop 
-                                muted 
-                                controls
-                                style={{
-                                    width: '100%',
-                                    height: 'auto',
-                                    display: 'block'
-                                }}
-                            />
+                            <PreviewVideo />
+
                         </div>
                     </div>
 
@@ -196,4 +186,4 @@ function Projects() {
     );
 }
 
-export default Projects;
+export default Projects;    
