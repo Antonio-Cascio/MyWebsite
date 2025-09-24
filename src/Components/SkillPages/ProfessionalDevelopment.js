@@ -74,8 +74,8 @@ function ProfessionalDevelopment() {
                     animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite'
                 }}>
                     <img src={Leadership} alt="Leadership" style={{
-                        width: '150px',
-                        height: '150px',
+                        width: '170px',
+                        height: '170px',
                         filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
                     }} />
                 </div>
@@ -88,8 +88,8 @@ function ProfessionalDevelopment() {
                     animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite'
                 }}>
                     <img src={BoysState} alt="BoysState" style={{
-                        width: '150px',
-                        height: '150px',
+                        width: '170px',
+                        height: '170px',
                         filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
                     }} />
                 </div>
@@ -127,7 +127,7 @@ function ProfessionalDevelopment() {
                     }}>
                         <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>Villanova Leadership Program</h3>
                         <h4 style={{ color: '#336B87' }}> <a href="https://www1.villanova.edu/university.html"> Villanova University, Pennsylvania</a></h4>
-                        <h5 style={{ color: '#617D8A' }}>January 2025 - April 2025</h5>
+                        <h5>January 2025 - April 2025</h5>
                         <p style={{ fontWeight: 'bold' }}>• Participated in modules demonstrating how to be a better leader.</p>
                         <p style={{ fontWeight: 'bold' }}>• Networked with other Villanova Students and Alumni.</p>
                         <p style={{ fontWeight: 'bold' }}>• Received a Certificate of Leadership.</p>

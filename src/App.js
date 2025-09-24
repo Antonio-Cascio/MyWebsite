@@ -78,7 +78,7 @@ function HomeContent() {
                 className="nav-button"
                 onClick={() => window.location.href = '/work-experience'}
               >
-                Work Experience 💼
+                Work Experience 💼 
               </button>
               
               <button 

@@ -182,6 +182,24 @@ function Projects() {
                     </div>
                 </div>
             </div>
+            <div style={{
+                maxWidth: '1200px',
+                margin: '0 auto',
+                background: 'rgba(255, 255, 255, 0.9)',
+                backdropFilter: 'blur(10px)',
+                borderRadius: '20px',
+                padding: '40px',
+                border: '1px solid rgba(51, 107, 135, 0.2)',
+                color: '#2F4858',
+                textAlign: 'center',
+                justifyContent: 'center',
+                alignItems: 'center',
+                marginTop: '30px'
+
+            }}>
+                <h3 style={{ fontSize: '2em', marginBottom: '20px', color: '#2F4858' }}>More Projects Coming Soon!</h3>
+                <p style={{ fontSize: '1.1em', opacity: 0.9, color: '#617D8A' }}>I am constantly working on new projects and learning new technologies. Check back soon to see what I am working on!</p>
+            </div>
         </div>
     );
 }

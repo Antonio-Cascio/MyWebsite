@@ -122,8 +122,8 @@ function ProgrammingLanguages() {
                             border: '2px solid rgba(51, 107, 135, 0.2)'
                         }}>
                             <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>Java</h3>
-                            <p style={{ fontWeight: 'bold' }}>Beginner proficiency in object-oriented programming</p>
-                        </div>
+                            <p style={{ fontWeight: 'bold' }}>Proficiency in object-oriented programming</p>
+                        </div>  
 
                         <div style={{
                             background: 'rgba(186, 217, 217, 0.4)',
@@ -132,7 +132,25 @@ function ProgrammingLanguages() {
                             border: '2px solid rgba(51, 107, 135, 0.2)'
                         }}>
                             <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>JavaScript</h3>
-                            <p style={{ fontWeight: 'bold' }}>Beginner proficiency in JavaScript</p>
+                            <p style={{ fontWeight: 'bold' }}> Proficiency in JavaScript</p>
+                        </div>
+                        <div style={{
+                            background: 'rgba(186, 217, 217, 0.4)',
+                            padding: '20px',
+                            borderRadius: '10px',
+                            border: '2px solid rgba(51, 107, 135, 0.2)'
+                        }}>
+                            <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>Python</h3>
+                            <p style={{ fontWeight: 'bold' }}>Proficiency in Python</p>
+                        </div>
+                        <div style={{
+                            background: 'rgba(186, 217, 217, 0.4)',
+                            padding: '20px',
+                            borderRadius: '10px',
+                            border: '2px solid rgba(51, 107, 135, 0.2)'
+                        }}>
+                            <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>HTML</h3>
+                            <p style={{ fontWeight: 'bold' }}>Proficiency in HTML</p>
                         </div>
                     </div>
                 </div>
