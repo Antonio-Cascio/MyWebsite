@@ -53,41 +53,41 @@ function AldosPaneVino() {
     `;
 
     return (
-        <div style={{ 
+        <div style={{
             padding: '40px',
             minHeight: '100vh',
             position: 'relative',
-            overflow: 'hidden'
+            overflow: 'hidden',
         }}>
             {/* Add CSS animations */}
             <style>{floatingAnimation}</style>
-            
+
             {/* Background decorative images */}
             <div style={{
                 position: 'absolute',
                 top: '90px',
                 left: '50px',
                 zIndex: 1,
-                animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite'
+                animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite',
             }}>
                 <img src={WineImage2} alt="Wine" style={{
                     width: '150px',
                     height: '150px',
-                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
+                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))',
                 }} />
             </div>
-            
+
             <div style={{
                 position: 'absolute',
                 top: '80px',
                 right: '60px',
                 zIndex: 1,
-                animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite'
+                animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite',
             }}>
                 <img src={BreadImage} alt="Bread" style={{
                     width: '140px',
                     height: '140px',
-                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
+                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))',
                 }} />
             </div>
 
@@ -96,12 +96,12 @@ function AldosPaneVino() {
                 bottom: '100px',
                 left: '80px',
                 zIndex: 1,
-                animation: 'float3 8s ease-in-out infinite, pulse3 6s ease-in-out infinite'
+                animation: 'float3 8s ease-in-out infinite, pulse3 6s ease-in-out infinite',
             }}>
                 <img src={WineImage} alt="Wine" style={{
                     width: '100px',
                     height: '150px',
-                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
+                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))',
                 }} />
             </div>
 
@@ -110,28 +110,28 @@ function AldosPaneVino() {
                 bottom: '90px',
                 right: '80px',
                 zIndex: 1,
-                animation: 'float4 5s ease-in-out infinite, pulse4 4.5s ease-in-out infinite'
+                animation: 'float4 5s ease-in-out infinite, pulse4 4.5s ease-in-out infinite',
             }}>
                 <img src={PastaImage} alt="Pasta" style={{
                     width: '130px',
                     height: '130px',
-                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
+                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))',
                 }} />
             </div>
 
-            <h2 style={{ 
-                textAlign: 'center', 
+            <h2 style={{
+                textAlign: 'center',
                 fontSize: '2.5em',
                 marginTop: '50px',
                 marginBottom: '100px',
                 color: '#2F4858',
                 textShadow: '2px 2px 4px rgba(51, 107, 135, 0.2)',
                 position: 'relative',
-                zIndex: 2
+                zIndex: 2,
             }}>
                 Aldo's Pane Vino
             </h2>
-            
+
             <div style={{
                 maxWidth: '1000px',
                 margin: '0 auto',
@@ -142,12 +142,12 @@ function AldosPaneVino() {
                 border: '1px solid rgba(51, 107, 135, 0.2)',
                 color: '#2F4858',
                 position: 'relative',
-                zIndex: 2
+                zIndex: 2,
             }}>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '30px', marginBottom: '30px' }}>
-                    <img 
+                    <img
                         className="personality-image"
-                        src={AldosImage} 
+                        src={AldosImage}
                         alt="Aldo's Pane e Vino"
                         style={{
                             width: '300px',
@@ -156,7 +156,7 @@ function AldosPaneVino() {
                             objectFit: 'cover',
                             border: '3px solid rgba(255, 255, 255, 0.3)',
                             boxShadow: '0 10px 30px rgba(0, 0, 0, 0.4)',
-                            flexShrink: 0
+                            flexShrink: 0,
                         }}
                     />
                     <div style={{ flex: 1 }}>
@@ -165,7 +165,7 @@ function AldosPaneVino() {
                         <p style={{ fontSize: '1.2em', marginBottom: '30px', color: '#617D8A' }}>May 2021 – Present</p>
                         <div style={{
                             fontSize: '1.1em',
-                            lineHeight: '1.6'
+                            lineHeight: '1.6',
                         }}>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '15px', color: '#617D8A' }}>• Fostered positive workplace environment through quality customer service and consistent communication with management.</li>
@@ -180,4 +180,4 @@ function AldosPaneVino() {
     );
 }
 
-export default AldosPaneVino; 
+export default AldosPaneVino;

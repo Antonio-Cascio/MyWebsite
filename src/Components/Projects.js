@@ -6,18 +6,18 @@ import githubLogo from '../images/Github.png';
 function Projects() {
     const navigate = useNavigate();
     return (
-        <div style={{ 
+        <div style={{
             padding: '40px',
             minHeight: '100vh',
-            position: 'relative'
+            position: 'relative',
         }}>
-            <h2 style={{ 
-                textAlign: 'center', 
+            <h2 style={{
+                textAlign: 'center',
                 fontSize: '2.5em',
                 marginTop: '50px',
                 marginBottom: '100px',
                 color: '#2F4858',
-                textShadow: '2px 2px 4px rgba(51, 107, 135, 0.2)'
+                textShadow: '2px 2px 4px rgba(51, 107, 135, 0.2)',
             }}>
                 Projects
             </h2>
@@ -30,23 +30,23 @@ function Projects() {
                 borderRadius: '20px',
                 padding: '40px',
                 border: '1px solid rgba(51, 107, 135, 0.2)',
-                color: '#2F4858'
+                color: '#2F4858',
             }}>
                 <div style={{
                     display: 'flex',
                     gap: '40px',
-                    alignItems: 'flex-start'
+                    alignItems: 'flex-start',
                 }}>
 
                     <div style={{
                         flex: '1',
-                        maxWidth: '600px'
+                        maxWidth: '600px',
                     }}>
                         <div style={{
                             borderRadius: '15px',
                             overflow: 'hidden',
                             boxShadow: '0 10px 30px rgba(0, 0, 0, 0.2)',
-                            border: '1px solid rgba(51, 107, 135, 0.2)'
+                            border: '1px solid rgba(51, 107, 135, 0.2)',
                         }}>
                             <PreviewVideo />
 
@@ -56,41 +56,41 @@ function Projects() {
                     {/* Right Side - Project Description */}
                     <div style={{
                         flex: '1',
-                        padding: '20px'
+                        padding: '20px',
                     }}>
-                        <h3 style={{ 
-                            color: '#2F4858', 
+                        <h3 style={{
+                            color: '#2F4858',
                             marginBottom: '20px',
                             fontSize: '2em',
-                            fontWeight: 'bold'
+                            fontWeight: 'bold',
                         }}>
                             KitchenKing Website
                         </h3>
-                        
-                        <p style={{ 
+
+                        <p style={{
                             color: '#617D8A',
                             marginBottom: '25px',
                             fontSize: '1.1em',
-                            lineHeight: '1.6'
+                            lineHeight: '1.6',
                         }}>
                             Built a recipe discovery and social cooking platform using React.js, Node.js/Express.js, SQLite, and Material-UI. Integrated Spoonacular API for recipe data and implemented JWT authentication for secure user sessions. Features include ingredient-based recipe search, social engagement system (likes, comments, ratings), real-time leaderboard, user favorites management, and responsive pagination. Demonstrates RESTful API design, database schema design, React hooks for state management, responsive CSS Grid/Flexbox layouts, and secure authentication. The platform helps users find recipes for available ingredients while fostering community engagement.
                         </p>
 
                         <div style={{
-                            marginBottom: '25px'
+                            marginBottom: '25px',
                         }}>
-                            <h4 style={{ 
-                                color: '#2F4858', 
+                            <h4 style={{
+                                color: '#2F4858',
                                 marginBottom: '15px',
                                 fontSize: '1.2em',
-                                fontWeight: 'bold'
+                                fontWeight: 'bold',
                             }}>
                                 Technologies Used
                             </h4>
                             <div style={{
                                 display: 'flex',
                                 flexWrap: 'wrap',
-                                gap: '10px'
+                                gap: '10px',
                             }}>
                                 <span style={{
                                     background: 'rgba(51, 107, 135, 0.2)',
@@ -98,7 +98,7 @@ function Projects() {
                                     padding: '8px 16px',
                                     borderRadius: '20px',
                                     fontSize: '0.9em',
-                                    fontWeight: '500'
+                                    fontWeight: '500',
                                 }}>
                                     React
                                 </span>
@@ -108,7 +108,7 @@ function Projects() {
                                     padding: '8px 16px',
                                     borderRadius: '20px',
                                     fontSize: '0.9em',
-                                    fontWeight: '500'
+                                    fontWeight: '500',
                                 }}>
                                     JavaScript
                                 </span>
@@ -118,7 +118,7 @@ function Projects() {
                                     padding: '8px 16px',
                                     borderRadius: '20px',
                                     fontSize: '0.9em',
-                                    fontWeight: '500'
+                                    fontWeight: '500',
                                 }}>
                                     Material-UI
                                 </span>
@@ -128,30 +128,30 @@ function Projects() {
                                     padding: '8px 16px',
                                     borderRadius: '20px',
                                     fontSize: '0.9em',
-                                    fontWeight: '500'
+                                    fontWeight: '500',
                                 }}>
                                     Spoonacular API
-                                </span> 
+                                </span>
                                 <span style={{
                                     background: 'rgba(51, 107, 135, 0.2)',
                                     color: '#2F4858',
                                     padding: '8px 16px',
                                     borderRadius: '20px',
                                     fontSize: '0.9em',
-                                    fontWeight: '500'
+                                    fontWeight: '500',
                                 }}>
                                     SQLite
-                                </span> 
+                                </span>
                                 <span style={{
                                     background: 'rgba(51, 107, 135, 0.2)',
                                     color: '#2F4858',
                                     padding: '8px 16px',
                                     borderRadius: '20px',
                                     fontSize: '0.9em',
-                                    fontWeight: '500'
+                                    fontWeight: '500',
                                 }}>
                                     JWT authentication
-                                </span> 
+                                </span>
                             </div>
                         </div>
 
@@ -171,8 +171,8 @@ function Projects() {
                             marginTop: '20px',
                             '&:hover': {
                                 background: 'rgba(1, 35, 52, 0.8)',
-                                color: 'white'
-                            }   
+                                color: 'white',
+                            },
                         }}
                         onClick={() => window.open('https://github.com/Antonio-Cascio/KitchenKing', '_blank')}
                         >
@@ -194,7 +194,7 @@ function Projects() {
                 textAlign: 'center',
                 justifyContent: 'center',
                 alignItems: 'center',
-                marginTop: '30px'
+                marginTop: '30px',
 
             }}>
                 <h3 style={{ fontSize: '2em', marginBottom: '20px', color: '#2F4858' }}>More Projects Coming Soon!</h3>
@@ -204,4 +204,4 @@ function Projects() {
     );
 }
 
-export default Projects;    
+export default Projects;

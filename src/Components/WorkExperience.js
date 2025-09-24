@@ -5,22 +5,22 @@ function WorkExperience() {
     const navigate = useNavigate();
 
     return (
-        <div style={{ 
+        <div style={{
             padding: '40px',
             minHeight: '100vh',
-            position: 'relative'
+            position: 'relative',
         }}>
-            <h2 style={{ 
-                textAlign: 'center', 
+            <h2 style={{
+                textAlign: 'center',
                 fontSize: '2.5em',
                 marginTop: '50px',
                 marginBottom: '100px',
                 color: '#2F4858',
-                textShadow: '2px 2px 4px rgba(51, 107, 135, 0.2)'
+                textShadow: '2px 2px 4px rgba(51, 107, 135, 0.2)',
             }}>
                 Work Experience
             </h2>
-            
+
             <div style={{
                 maxWidth: '1200px',
                 margin: '0 auto',
@@ -28,9 +28,9 @@ function WorkExperience() {
                 gridTemplateColumns: 'repeat(2, 1fr)',
                 gap: '40px',
                 marginLeft: '100px',
-                padding: '20px'
+                padding: '20px',
             }}>
-                <div 
+                <div
                     className="work-card"
                     onClick={() => navigate('/work-experience/trickyleaf')}
                     style={{
@@ -45,7 +45,7 @@ function WorkExperience() {
                         alignItems: 'center',
                         transition: 'all 0.3s ease',
                         transform: 'translateY(0)',
-                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
+                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
                     }}
                     onMouseEnter={(e) => {
                         e.target.style.transform = 'translateY(-8px)';
@@ -62,7 +62,7 @@ function WorkExperience() {
                     <p style={{ fontSize: '1.1em', opacity: 0.9, color: '#617D8A' }}>Explore my role at TrickyLeaf</p>
                 </div>
 
-                <div 
+                <div
                     className="work-card"
                     onClick={() => navigate('/work-experience/aldos')}
                     style={{
@@ -77,7 +77,7 @@ function WorkExperience() {
                         alignItems: 'center',
                         transition: 'all 0.3s ease',
                         transform: 'translateY(0)',
-                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
+                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
                     }}
                     onMouseEnter={(e) => {
                         e.target.style.transform = 'translateY(-8px)';

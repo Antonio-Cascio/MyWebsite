@@ -51,114 +51,113 @@ function ProgrammingLanguages() {
 
     return (
         <div>
-            
-            <div style={{ 
+
+            <div style={{
                 padding: '40px',
                 minHeight: '100vh',
                 position: 'relative',
-                overflow: 'hidden'
+                overflow: 'hidden',
             }}>
                 {/* Add CSS animations */}
                 <style>{floatingAnimation}</style>
-                
+
                 {/* Background decorative images */}
                 <div style={{
                     position: 'absolute',
                     top: '100px',
                     left: '50px',
                     zIndex: 1,
-                    animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite'
+                    animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite',
                 }}>
                     <img src={Java} alt="Wine" style={{
                         width: '150px',
                         height: '150px',
-                        filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
+                        filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))',
                     }} />
                 </div>
-                
+
                 <div style={{
                     position: 'absolute',
                     top: '80px',
                     right: '60px',
                     zIndex: 1,
-                    animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite'
+                    animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite',
                 }}>
                     <img src={JavaScript} alt="JS" style={{
                         width: '140px',
                         height: '140px',
-                        filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
+                        filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))',
                     }} />
                 </div>
 
 
-
-            <div style={{ 
-                padding: '40px',
-                minHeight: '100vh',
-                position: 'relative'
-            }}>
-                <h2 style={{ 
-                    textAlign: 'center', 
-                    fontSize: '2.5em',
-                    marginTop: '50px',
-                    marginBottom: '100px',
-                    color: '#2F4858',
-                    textShadow: '2px 2px 4px rgba(51, 107, 135, 0.2)'
+                <div style={{
+                    padding: '40px',
+                    minHeight: '100vh',
+                    position: 'relative',
                 }}>
-                    Programming Languages
-                </h2>
-                
-                <div>
-                    <div style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(2, 1fr)',
-                        gap: '30px',
-                        marginTop: '20px'
+                    <h2 style={{
+                        textAlign: 'center',
+                        fontSize: '2.5em',
+                        marginTop: '50px',
+                        marginBottom: '100px',
+                        color: '#2F4858',
+                        textShadow: '2px 2px 4px rgba(51, 107, 135, 0.2)',
                     }}>
-                        <div style={{
-                            background: 'rgba(186, 217, 217, 0.4)',
-                            padding: '20px',
-                            borderRadius: '10px',
-                            border: '2px solid rgba(51, 107, 135, 0.2)'
-                        }}>
-                            <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>Java</h3>
-                            <p style={{ fontWeight: 'bold' }}>Proficiency in object-oriented programming</p>
-                        </div>  
+                    Programming Languages
+                    </h2>
 
+                    <div>
                         <div style={{
-                            background: 'rgba(186, 217, 217, 0.4)',
-                            padding: '20px',
-                            borderRadius: '10px',
-                            border: '2px solid rgba(51, 107, 135, 0.2)'
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(2, 1fr)',
+                            gap: '30px',
+                            marginTop: '20px',
                         }}>
-                            <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>JavaScript</h3>
-                            <p style={{ fontWeight: 'bold' }}> Proficiency in JavaScript</p>
-                        </div>
-                        <div style={{
-                            background: 'rgba(186, 217, 217, 0.4)',
-                            padding: '20px',
-                            borderRadius: '10px',
-                            border: '2px solid rgba(51, 107, 135, 0.2)'
-                        }}>
-                            <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>Python</h3>
-                            <p style={{ fontWeight: 'bold' }}>Proficiency in Python</p>
-                        </div>
-                        <div style={{
-                            background: 'rgba(186, 217, 217, 0.4)',
-                            padding: '20px',
-                            borderRadius: '10px',
-                            border: '2px solid rgba(51, 107, 135, 0.2)'
-                        }}>
-                            <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>HTML</h3>
-                            <p style={{ fontWeight: 'bold' }}>Proficiency in HTML</p>
+                            <div style={{
+                                background: 'rgba(186, 217, 217, 0.4)',
+                                padding: '20px',
+                                borderRadius: '10px',
+                                border: '2px solid rgba(51, 107, 135, 0.2)',
+                            }}>
+                                <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>Java</h3>
+                                <p style={{ fontWeight: 'bold' }}>Proficiency in object-oriented programming</p>
+                            </div>
+
+                            <div style={{
+                                background: 'rgba(186, 217, 217, 0.4)',
+                                padding: '20px',
+                                borderRadius: '10px',
+                                border: '2px solid rgba(51, 107, 135, 0.2)',
+                            }}>
+                                <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>JavaScript</h3>
+                                <p style={{ fontWeight: 'bold' }}> Proficiency in JavaScript</p>
+                            </div>
+                            <div style={{
+                                background: 'rgba(186, 217, 217, 0.4)',
+                                padding: '20px',
+                                borderRadius: '10px',
+                                border: '2px solid rgba(51, 107, 135, 0.2)',
+                            }}>
+                                <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>Python</h3>
+                                <p style={{ fontWeight: 'bold' }}>Proficiency in Python</p>
+                            </div>
+                            <div style={{
+                                background: 'rgba(186, 217, 217, 0.4)',
+                                padding: '20px',
+                                borderRadius: '10px',
+                                border: '2px solid rgba(51, 107, 135, 0.2)',
+                            }}>
+                                <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>HTML</h3>
+                                <p style={{ fontWeight: 'bold' }}>Proficiency in HTML</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     );
 
 }
 
-export default ProgrammingLanguages; 
+export default ProgrammingLanguages;

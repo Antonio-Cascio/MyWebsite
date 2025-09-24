@@ -50,107 +50,106 @@ function Languages() {
     }
 `;
 
-    
 
     return (
         <div>
 
-        <div style={{ 
-            padding: '40px',
-            minHeight: '100vh',
-            position: 'relative',
-            overflow: 'hidden'
-        }}>
-            {/* Add CSS animations */}
-            <style>{floatingAnimation}</style>
-            
-            {/* Background decorative images */}
             <div style={{
-                position: 'absolute',
-                top: '100px',
-                left: '100px',
-                zIndex: 1,
-                animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite'
+                padding: '40px',
+                minHeight: '100vh',
+                position: 'relative',
+                overflow: 'hidden',
             }}>
-                {/* Italy Flag */}
-                <img src={USA} alt="USA" style={{ 
-                    width: '150px',
-                    height: '150px',
-                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
-                }} />
-            </div>
+                {/* Add CSS animations */}
+                <style>{floatingAnimation}</style>
 
-            <div style={{
-                position: 'absolute',
-                top: '100px',
-                right: '100px',
-                zIndex: 1,
-                animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite'
-            }}>
-                <img src={Italia} alt="Italia" style={{
-                    width: '150px',
-                    height: '150px',
-                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
-                }} />
-            </div>
-
-        <div style={{ 
-            padding: '40px',
-            
-            minHeight: '100vh',
-            position: 'relative'
-        }}>
-            <h2 style={{ 
-                textAlign: 'center', 
-                fontSize: '2.5em',
-                marginTop: '50px',
-                marginBottom: '100px',
-                color: '#2F4858',
-                textShadow: '2px 2px 4px rgba(51, 107, 135, 0.2)'
-            }}>
-                Languages
-            </h2>
-            
-            <div>
+                {/* Background decorative images */}
                 <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(2, 1fr)',
-                    gap: '30px',
-                    marginTop: '20px'
+                    position: 'absolute',
+                    top: '100px',
+                    left: '100px',
+                    zIndex: 1,
+                    animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite',
                 }}>
-                    <div style={{
-                        background: 'rgba(186, 217, 217, 0.4)',
-                        padding: '20px',
-                        borderRadius: '10px',
-                        border: '2px solid rgba(51, 107, 135, 0.2)'
+                    {/* Italy Flag */}
+                    <img src={USA} alt="USA" style={{
+                        width: '150px',
+                        height: '150px',
+                        filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))',
+                    }} />
+                </div>
 
-                    }}>
-                        <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>English</h3>
-                        <p style={{ 
-                            fontWeight: 'bold',
-                            color: '#617D8A',
-                            fontSize: '1.2em'
-                        }}>Native proficiency</p>
-                    </div>
+                <div style={{
+                    position: 'absolute',
+                    top: '100px',
+                    right: '100px',
+                    zIndex: 1,
+                    animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite',
+                }}>
+                    <img src={Italia} alt="Italia" style={{
+                        width: '150px',
+                        height: '150px',
+                        filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))',
+                    }} />
+                </div>
 
-                    <div style={{
-                        background: 'rgba(186, 217, 217, 0.4)',
-                        padding: '20px',
-                        borderRadius: '10px',
-                        border: '2px solid rgba(51, 107, 135, 0.2)'
+                <div style={{
+                    padding: '40px',
+
+                    minHeight: '100vh',
+                    position: 'relative',
+                }}>
+                    <h2 style={{
+                        textAlign: 'center',
+                        fontSize: '2.5em',
+                        marginTop: '50px',
+                        marginBottom: '100px',
+                        color: '#2F4858',
+                        textShadow: '2px 2px 4px rgba(51, 107, 135, 0.2)',
                     }}>
-                        <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>Italian</h3>
-                        <p style={{ 
-                            
-                            fontWeight: 'bold',
-                            color: '#617D8A',
-                            fontSize: '1.2em'
-                        }}>Conversational proficiency</p>
+                Languages
+                    </h2>
+
+                    <div>
+                        <div style={{
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(2, 1fr)',
+                            gap: '30px',
+                            marginTop: '20px',
+                        }}>
+                            <div style={{
+                                background: 'rgba(186, 217, 217, 0.4)',
+                                padding: '20px',
+                                borderRadius: '10px',
+                                border: '2px solid rgba(51, 107, 135, 0.2)',
+
+                            }}>
+                                <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>English</h3>
+                                <p style={{
+                                    fontWeight: 'bold',
+                                    color: '#617D8A',
+                                    fontSize: '1.2em',
+                                }}>Native proficiency</p>
+                            </div>
+
+                            <div style={{
+                                background: 'rgba(186, 217, 217, 0.4)',
+                                padding: '20px',
+                                borderRadius: '10px',
+                                border: '2px solid rgba(51, 107, 135, 0.2)',
+                            }}>
+                                <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>Italian</h3>
+                                <p style={{
+
+                                    fontWeight: 'bold',
+                                    color: '#617D8A',
+                                    fontSize: '1.2em',
+                                }}>Conversational proficiency</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
         </div>
     );
 }

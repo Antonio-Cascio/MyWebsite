@@ -1,4 +1,4 @@
-"use client"
+'use client';
 
 import React from 'react';
 
@@ -49,155 +49,153 @@ function Education() {
 `;
 
 
-    
     return (
 
-        <div style={{ 
+        <div style={{
             padding: '40px',
             minHeight: '100vh',
             position: 'relative',
-            overflow: 'hidden'
+            overflow: 'hidden',
         }}>
             {/* Add CSS animations */}
             <style>{floatingAnimation}</style>
-            
+
             {/* Background decorative images */}
             <div style={{
                 position: 'absolute',
                 top: '100px',
                 left: '100px',
                 zIndex: 1,
-                animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite'
+                animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite',
             }}>
                 <img src={Nova} alt="Nova" style={{
                     width: '150px',
                     height: '150px',
-                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
+                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))',
                 }} />
             </div>
-            
+
             <div style={{
                 position: 'absolute',
                 top: '100px',
                 right: '100px',
                 zIndex: 1,
-                animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite'
+                animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite',
             }}>
                 <img src={WildCat} alt="WildCat" style={{
                     width: '140px',
                     height: '140px',
-                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
+                    filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))',
                 }} />
             </div>
 
 
-        
-        <div style={{ 
-            padding: '40px',
-            minHeight: '100vh',
-            position: 'relative'
-        }}>
-            <h2 style={{ 
-                textAlign: 'center', 
-                fontSize: '2.5em',
-                marginTop: '50px',
-                marginBottom: '100px',
-                color: '#2F4858',
-                textShadow: '2px 2px 4px rgba(51, 107, 135, 0.2)'
-            }}>
-                Education
-            </h2>
-            
             <div style={{
-                maxWidth: '1000px',
-                margin: '0 auto',
-                background: 'rgba(255, 255, 255, 0.9)',
-                backdropFilter: 'blur(10px)',
-                borderRadius: '20px',
                 padding: '40px',
-                border: '1px solid rgba(51, 107, 135, 0.2)',
-                color: '#2F4858'
+                minHeight: '100vh',
+                position: 'relative',
             }}>
-                <div style={{ marginBottom: '30px' }}>
-                    <h3 style={{ 
-                        fontSize: '2em', 
-                        marginBottom: '15px',
-                        color: '#2F4858',
-                        textShadow: '1px 1px 2px rgba(51, 107, 135, 0.1)'
-                    }}>
-                        Bachelor of Science in Computer Science
-                    </h3>
-                    <h4 style={{ 
-                        fontSize: '1.5em', 
-                        marginBottom: '20px',
-                        color: '#336B87',
-                        opacity: 0.9
-                    }}>
-                        Villanova University
-                    </h4>
-                </div>
-
-                <div style={{ 
-                    fontSize: '1.1em',
-                    lineHeight: '1.6',
-                    marginBottom: '30px',
-                    color: '#617D8A'
+                <h2 style={{
+                    textAlign: 'center',
+                    fontSize: '2.5em',
+                    marginTop: '50px',
+                    marginBottom: '100px',
+                    color: '#2F4858',
+                    textShadow: '2px 2px 4px rgba(51, 107, 135, 0.2)',
                 }}>
-                    <p style={{ marginBottom: '15px' }}>
-                        I started my journey at Villanova's College of Liberal Arts and Sciences, studying Computer Science in the Fall of 2024. I am currently a Sophomore and expected to graduate in May 2028.
-                    </p>
-                </div>
+                Education
+                </h2>
 
                 <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(2, 1fr)',
-                    gap: '30px',
-                    marginTop: '40px'
+                    maxWidth: '1000px',
+                    margin: '0 auto',
+                    background: 'rgba(255, 255, 255, 0.9)',
+                    backdropFilter: 'blur(10px)',
+                    borderRadius: '20px',
+                    padding: '40px',
+                    border: '1px solid rgba(51, 107, 135, 0.2)',
+                    color: '#2F4858',
                 }}>
-                    <div style={{
-                        background: 'rgba(186, 217, 217, 0.3)',
-                        padding: '20px',
-                        borderRadius: '10px',
-                        border: '1px solid rgba(51, 107, 135, 0.2)'
-                    }}>
-                        <h4 style={{ fontSize: '1.2em', marginBottom: '10px', color: '#2F4858' }}>Expected Graduation</h4>
-                        <p style={{ color: '#617D8A' }}>May 2028</p>
+                    <div style={{ marginBottom: '30px' }}>
+                        <h3 style={{
+                            fontSize: '2em',
+                            marginBottom: '15px',
+                            color: '#2F4858',
+                            textShadow: '1px 1px 2px rgba(51, 107, 135, 0.1)',
+                        }}>
+                        Bachelor of Science in Computer Science
+                        </h3>
+                        <h4 style={{
+                            fontSize: '1.5em',
+                            marginBottom: '20px',
+                            color: '#336B87',
+                            opacity: 0.9,
+                        }}>
+                        Villanova University
+                        </h4>
                     </div>
 
                     <div style={{
-                        background: 'rgba(186, 217, 217, 0.3)',
-                        padding: '20px',
-                        borderRadius: '10px',
-                        border: '1px solid rgba(51, 107, 135, 0.2)'
+                        fontSize: '1.1em',
+                        lineHeight: '1.6',
+                        marginBottom: '30px',
+                        color: '#617D8A',
                     }}>
-                        <h4 style={{ fontSize: '1.2em', marginBottom: '10px', color: '#2F4858' }}>GPA</h4>
-                        <p style={{ color: '#617D8A' }}>3.58</p>
+                        <p style={{ marginBottom: '15px' }}>
+                        I started my journey at Villanova's College of Liberal Arts and Sciences, studying Computer Science in the Fall of 2024. I am currently a Sophomore and expected to graduate in May 2028.
+                        </p>
                     </div>
 
                     <div style={{
-                        background: 'rgba(186, 217, 217, 0.3)',
-                        padding: '20px',
-                        borderRadius: '10px',
-                        border: '1px solid rgba(51, 107, 135, 0.2)',
-                        gridColumn: 'span 2'
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(2, 1fr)',
+                        gap: '30px',
+                        marginTop: '40px',
                     }}>
-                        <h4 style={{ fontSize: '1.2em', marginBottom: '10px', color: '#2F4858' }}>Honors</h4>
-                        <p style={{ color: '#617D8A' }}>Dean's List (Fall 2024, Spring 2025)</p>
-                    </div>
+                        <div style={{
+                            background: 'rgba(186, 217, 217, 0.3)',
+                            padding: '20px',
+                            borderRadius: '10px',
+                            border: '1px solid rgba(51, 107, 135, 0.2)',
+                        }}>
+                            <h4 style={{ fontSize: '1.2em', marginBottom: '10px', color: '#2F4858' }}>Expected Graduation</h4>
+                            <p style={{ color: '#617D8A' }}>May 2028</p>
+                        </div>
 
-                    <div style={{
-                        background: 'rgba(186, 217, 217, 0.3)',
-                        padding: '20px',
-                        borderRadius: '10px',
-                        border: '1px solid rgba(51, 107, 135, 0.2)',
-                        gridColumn: 'span 2'
-                    }}>
-                        <h4 style={{ fontSize: '1.2em', marginBottom: '10px', color: '#2F4858' }}>Relevant Coursework</h4>
-                        <p style={{ color: '#617D8A' }}>Algorithms and Data Structures I & II, Discrete Structures, Platform Based Computing, Principles of Database Systems, Statistics for Computing, and more.</p>
+                        <div style={{
+                            background: 'rgba(186, 217, 217, 0.3)',
+                            padding: '20px',
+                            borderRadius: '10px',
+                            border: '1px solid rgba(51, 107, 135, 0.2)',
+                        }}>
+                            <h4 style={{ fontSize: '1.2em', marginBottom: '10px', color: '#2F4858' }}>GPA</h4>
+                            <p style={{ color: '#617D8A' }}>3.58</p>
+                        </div>
+
+                        <div style={{
+                            background: 'rgba(186, 217, 217, 0.3)',
+                            padding: '20px',
+                            borderRadius: '10px',
+                            border: '1px solid rgba(51, 107, 135, 0.2)',
+                            gridColumn: 'span 2',
+                        }}>
+                            <h4 style={{ fontSize: '1.2em', marginBottom: '10px', color: '#2F4858' }}>Honors</h4>
+                            <p style={{ color: '#617D8A' }}>Dean's List (Fall 2024, Spring 2025)</p>
+                        </div>
+
+                        <div style={{
+                            background: 'rgba(186, 217, 217, 0.3)',
+                            padding: '20px',
+                            borderRadius: '10px',
+                            border: '1px solid rgba(51, 107, 135, 0.2)',
+                            gridColumn: 'span 2',
+                        }}>
+                            <h4 style={{ fontSize: '1.2em', marginBottom: '10px', color: '#2F4858' }}>Relevant Coursework</h4>
+                            <p style={{ color: '#617D8A' }}>Algorithms and Data Structures I & II, Discrete Structures, Platform Based Computing, Principles of Database Systems, Statistics for Computing, and more.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     );
 }
