@@ -7,6 +7,12 @@ function PreviewVideo() {
                 src={KitchenKingVideo}
                 type="video/mp4"
             />
+            <track
+                kind="captions"
+                srcLang="en"
+                label="English"
+                default
+            />
         Your browser does not support the video tag.
         </video>
     );

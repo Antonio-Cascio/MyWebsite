@@ -163,8 +163,20 @@ function HomeContent() {
             {/* Resume Modal */}
             <ModalPortal>
                 {isModalOpen && (
-                    <div className="modal-overlay" onClick={() => setIsModalOpen(false)}>
-                        <div className="modal-content" onClick={e => e.stopPropagation()}>
+                    <div 
+                        className="modal-overlay" 
+                        onClick={() => setIsModalOpen(false)}
+                        onKeyDown={(e) => e.key === 'Escape' && setIsModalOpen(false)}
+                        role="button"
+                        tabIndex={0}
+                    >
+                        <div 
+                            className="modal-content" 
+                            onClick={e => e.stopPropagation()}
+                            onKeyDown={(e) => e.key === 'Enter' && e.stopPropagation()}
+                            role="button"
+                            tabIndex={0}
+                        >
                             <button className="modal-close" onClick={() => setIsModalOpen(false)}>×</button>
                             <iframe
                                 src={resume}
@@ -249,7 +261,13 @@ function NavigationButtons() {
                             <img src={githubLogo} alt="GitHub" className="social-icon" />
                         </a>
                     </div>
-                    <div className="back-container" onClick={() => navigate(-1)}>
+                    <div 
+                        className="back-container" 
+                        onClick={() => navigate(-1)}
+                        onKeyDown={(e) => e.key === 'Enter' && navigate(-1)}
+                        role="button"
+                        tabIndex={0}
+                    >
                         <img src={BackIcon} alt="Back to Home" className="back-icon" />
                     </div>
                 </div>
@@ -257,8 +275,20 @@ function NavigationButtons() {
                 {/* Resume Modal for Navigation Bar */}
                 <ModalPortal>
                     {isModalOpen && (
-                        <div className="modal-overlay" onClick={() => setIsModalOpen(false)}>
-                            <div className="modal-content" onClick={e => e.stopPropagation()}>
+                        <div 
+                            className="modal-overlay" 
+                            onClick={() => setIsModalOpen(false)}
+                            onKeyDown={(e) => e.key === 'Escape' && setIsModalOpen(false)}
+                            role="button"
+                            tabIndex={0}
+                        >
+                            <div 
+                                className="modal-content" 
+                                onClick={e => e.stopPropagation()}
+                                onKeyDown={(e) => e.key === 'Enter' && e.stopPropagation()}
+                                role="button"
+                                tabIndex={0}
+                            >
                                 <button className="modal-close" onClick={() => setIsModalOpen(false)}>×</button>
                                 <iframe
                                     src={resume}

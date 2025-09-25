@@ -32,6 +32,9 @@ function Skills() {
                 <div
                     className="skill-card"
                     onClick={() => navigate('/skills/programming-languages')}
+                    onKeyDown={(e) => e.key === 'Enter' && navigate('/skills/programming-languages')}
+                    role="button"
+                    tabIndex={0}
                     style={{
                         background: 'rgba(255, 255, 255, 0.9)',
                         backdropFilter: 'blur(10px)',
@@ -63,6 +66,9 @@ function Skills() {
                 <div
                     className="skill-card"
                     onClick={() => navigate('/skills/professional-development')}
+                    onKeyDown={(e) => e.key === 'Enter' && navigate('/skills/professional-development')}
+                    role="button"
+                    tabIndex={0}
                     style={{
                         background: 'rgba(255, 255, 255, 0.9)',
                         backdropFilter: 'blur(10px)',
@@ -94,6 +100,9 @@ function Skills() {
                 <div
                     className="skill-card"
                     onClick={() => navigate('/skills/tools-and-frameworks')}
+                    onKeyDown={(e) => e.key === 'Enter' && navigate('/skills/tools-and-frameworks')}
+                    role="button"
+                    tabIndex={0}
                     style={{
                         background: 'rgba(255, 255, 255, 0.9)',
                         backdropFilter: 'blur(10px)',
@@ -125,6 +134,9 @@ function Skills() {
                 <div
                     className="skill-card"
                     onClick={() => navigate('/skills/languages')}
+                    onKeyDown={(e) => e.key === 'Enter' && navigate('/skills/languages')}
+                    role="button"
+                    tabIndex={0}
                     style={{
                         background: 'rgba(255, 255, 255, 0.9)',
                         backdropFilter: 'blur(10px)',

@@ -33,6 +33,9 @@ function WorkExperience() {
                 <div
                     className="work-card"
                     onClick={() => navigate('/work-experience/trickyleaf')}
+                    onKeyDown={(e) => e.key === 'Enter' && navigate('/work-experience/trickyleaf')}
+                    role="button"
+                    tabIndex={0}
                     style={{
                         background: 'rgba(255, 255, 255, 0.9)',
                         backdropFilter: 'blur(10px)',
@@ -65,6 +68,9 @@ function WorkExperience() {
                 <div
                     className="work-card"
                     onClick={() => navigate('/work-experience/aldos')}
+                    onKeyDown={(e) => e.key === 'Enter' && navigate('/work-experience/aldos')}
+                    role="button"
+                    tabIndex={0}
                     style={{
                         background: 'rgba(255, 255, 255, 0.9)',
                         backdropFilter: 'blur(10px)',
