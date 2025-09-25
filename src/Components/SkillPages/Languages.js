@@ -52,7 +52,7 @@ function Languages() {
         <div>
 
             <div style={{
-                padding: '40px',
+                padding: window.innerWidth > 768 ? '40px' : '20px',
                 minHeight: '100vh',
                 position: 'relative',
                 overflow: 'hidden',
@@ -67,6 +67,7 @@ function Languages() {
                     left: '100px',
                     zIndex: 1,
                     animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite',
+                    display: window.innerWidth > 768 ? 'block' : 'none',
                 }}>
                     {/* Italy Flag */}
                     <img src={USA} alt="USA" style={{
@@ -82,6 +83,7 @@ function Languages() {
                     right: '100px',
                     zIndex: 1,
                     animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite',
+                    display: window.innerWidth > 768 ? 'block' : 'none',
                 }}>
                     <img src={Italia} alt="Italia" style={{
                         width: '150px',
@@ -91,8 +93,7 @@ function Languages() {
                 </div>
 
                 <div style={{
-                    padding: '40px',
-
+                    padding: window.innerWidth > 768 ? '40px' : '20px',
                     minHeight: '100vh',
                     position: 'relative',
                 }}>
@@ -110,8 +111,8 @@ function Languages() {
                     <div>
                         <div style={{
                             display: 'grid',
-                            gridTemplateColumns: 'repeat(2, 1fr)',
-                            gap: '30px',
+                            gridTemplateColumns: window.innerWidth > 768 ? 'repeat(2, 1fr)' : '1fr',
+                            gap: '20px',
                             marginTop: '20px',
                         }}>
                             <div style={{

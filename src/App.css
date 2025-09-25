@@ -553,12 +553,34 @@ body::before {
     gap: 15px;
   }
   
+  .real-nav-bar-custom {
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
   .social-links {
     order: 2;
   }
   
   .back-container {
     order: 3;
+  }
+  
+  /* Modal responsive */
+  .modal-content {
+    margin: 20px;
+    padding: 20px;
+    max-width: calc(100% - 40px);
+  }
+  
+  .modal-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .modal-button {
+    width: 100%;
   }
 }
 
@@ -594,5 +616,92 @@ body::before {
     width: 100%;
     max-width: 250px;
     justify-content: center;
+  }
+  
+  .nav-name {
+    font-size: 1.2em;
+  }
+  
+  .social-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .back-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* Additional mobile-specific styles */
+@media (max-width: 1024px) {
+  .main-content-wrapper {
+    padding: 0 20px;
+  }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+  .nav-button:hover,
+  .contact-link:hover,
+  .social-link:hover,
+  .back-container:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .nav-button:active,
+  .contact-link:active,
+  .social-link:active,
+  .back-container:active {
+    transform: scale(0.95);
+  }
+}
+
+/* Hide decorative floating images on mobile */
+@media (max-width: 768px) {
+  .floating-image {
+    display: none !important;
+  }
+}
+
+/* Additional responsive improvements */
+@media (max-width: 768px) {
+  .skill-card,
+  .work-card {
+    padding: 20px !important;
+    margin: 10px 0 !important;
+  }
+  
+  .skill-card h3,
+  .work-card h3 {
+    font-size: 1.3em !important;
+  }
+  
+  .skill-card p,
+  .work-card p {
+    font-size: 0.9em !important;
+  }
+  
+  /* Page titles */
+  h2 {
+    font-size: 2em !important;
+    margin-top: 30px !important;
+    margin-bottom: 50px !important;
+  }
+  
+  /* Content containers */
+  .content-container {
+    padding: 20px !important;
+  }
+  
+  /* Text content */
+  h3 {
+    font-size: 1.4em !important;
+  }
+  
+  p {
+    font-size: 0.9em !important;
+    line-height: 1.5 !important;
   }
 }

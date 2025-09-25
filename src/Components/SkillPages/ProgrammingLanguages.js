@@ -51,7 +51,7 @@ function ProgrammingLanguages() {
         <div>
 
             <div style={{
-                padding: '40px',
+                padding: window.innerWidth > 768 ? '40px' : '20px',
                 minHeight: '100vh',
                 position: 'relative',
                 overflow: 'hidden',
@@ -66,8 +66,9 @@ function ProgrammingLanguages() {
                     left: '50px',
                     zIndex: 1,
                     animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite',
+                    display: window.innerWidth > 768 ? 'block' : 'none',
                 }}>
-                    <img src={Java} alt="Wine" style={{
+                    <img src={Java} alt="Java" style={{
                         width: '150px',
                         height: '150px',
                         filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))',
@@ -80,8 +81,9 @@ function ProgrammingLanguages() {
                     right: '60px',
                     zIndex: 1,
                     animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite',
+                    display: window.innerWidth > 768 ? 'block' : 'none',
                 }}>
-                    <img src={JavaScript} alt="JS" style={{
+                    <img src={JavaScript} alt="JavaScript" style={{
                         width: '140px',
                         height: '140px',
                         filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.3))',
@@ -90,7 +92,7 @@ function ProgrammingLanguages() {
 
 
                 <div style={{
-                    padding: '40px',
+                    padding: window.innerWidth > 768 ? '40px' : '20px',
                     minHeight: '100vh',
                     position: 'relative',
                 }}>
@@ -108,8 +110,8 @@ function ProgrammingLanguages() {
                     <div>
                         <div style={{
                             display: 'grid',
-                            gridTemplateColumns: 'repeat(2, 1fr)',
-                            gap: '30px',
+                            gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+                            gap: '20px',
                             marginTop: '20px',
                         }}>
                             <div style={{

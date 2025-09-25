@@ -48,14 +48,14 @@ function ToolsAndFrameworks() {
 
     return (
         <div style={{
-            padding: '40px',
+            padding: window.innerWidth > 768 ? '40px' : '20px',
             minHeight: '100vh',
             position: 'relative',
             overflow: 'hidden',
         }}>
 
             <div style={{
-                padding: '40px',
+                padding: window.innerWidth > 768 ? '40px' : '20px',
                 minHeight: '100vh',
                 position: 'relative',
                 overflow: 'hidden',
@@ -69,6 +69,7 @@ function ToolsAndFrameworks() {
                     left: '100px',
                     zIndex: 1,
                     animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite',
+                    display: window.innerWidth > 768 ? 'block' : 'none',
                 }}>
 
                     <img src={ReactLogo} alt="React" style={{
@@ -84,6 +85,7 @@ function ToolsAndFrameworks() {
                     right: '100px',
                     zIndex: 1,
                     animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite',
+                    display: window.innerWidth > 768 ? 'block' : 'none',
                 }}>
                     <img src={MaterialUI} alt="MaterialUI" style={{
                         width: '100px',
@@ -107,7 +109,7 @@ function ToolsAndFrameworks() {
                 <div>
                     <div style={{
                         display: 'grid',
-                        gridTemplateColumns: 'repeat(2, 1fr)',
+                        gridTemplateColumns: window.innerWidth > 768 ? 'repeat(2, 1fr)' : '1fr',
                         gap: '30px',
                         marginTop: '20px',
                     }}>

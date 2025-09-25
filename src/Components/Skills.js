@@ -23,8 +23,8 @@ function Skills() {
 
             <div style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(2, 1fr)',
-                gap: '40px',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                gap: '30px',
                 maxWidth: '1200px',
                 margin: '0 auto',
                 padding: '20px',

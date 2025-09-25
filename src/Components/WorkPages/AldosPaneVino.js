@@ -52,7 +52,7 @@ function AldosPaneVino() {
 
     return (
         <div style={{
-            padding: '40px',
+            padding: window.innerWidth > 768 ? '40px' : '20px',
             minHeight: '100vh',
             position: 'relative',
             overflow: 'hidden',
@@ -67,6 +67,7 @@ function AldosPaneVino() {
                 left: '50px',
                 zIndex: 1,
                 animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite',
+                display: window.innerWidth > 768 ? 'block' : 'none',
             }}>
                 <img src={WineImage2} alt="Wine" style={{
                     width: '150px',
@@ -81,6 +82,7 @@ function AldosPaneVino() {
                 right: '60px',
                 zIndex: 1,
                 animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite',
+                display: window.innerWidth > 768 ? 'block' : 'none',
             }}>
                 <img src={BreadImage} alt="Bread" style={{
                     width: '140px',
@@ -95,6 +97,7 @@ function AldosPaneVino() {
                 left: '80px',
                 zIndex: 1,
                 animation: 'float3 8s ease-in-out infinite, pulse3 6s ease-in-out infinite',
+                display: window.innerWidth > 768 ? 'block' : 'none',
             }}>
                 <img src={WineImage} alt="Wine" style={{
                     width: '100px',
@@ -109,6 +112,7 @@ function AldosPaneVino() {
                 right: '80px',
                 zIndex: 1,
                 animation: 'float4 5s ease-in-out infinite, pulse4 4.5s ease-in-out infinite',
+                display: window.innerWidth > 768 ? 'block' : 'none',
             }}>
                 <img src={PastaImage} alt="Pasta" style={{
                     width: '130px',
@@ -136,20 +140,27 @@ function AldosPaneVino() {
                 background: 'rgba(255, 255, 255, 0.9)',
                 backdropFilter: 'blur(10px)',
                 borderRadius: '20px',
-                padding: '40px',
+                padding: window.innerWidth > 768 ? '40px' : '20px',
                 border: '1px solid rgba(51, 107, 135, 0.2)',
                 color: '#2F4858',
                 position: 'relative',
                 zIndex: 2,
             }}>
-                <div style={{ display: 'flex', alignItems: 'flex-start', gap: '30px', marginBottom: '30px' }}>
+                <div style={{
+                    display: 'flex',
+                    flexDirection: window.innerWidth > 768 ? 'row' : 'column',
+                    alignItems: 'flex-start',
+                    gap: window.innerWidth > 768 ? '30px' : '20px',
+                    marginBottom: '30px',
+                }}>
                     <img
                         className="personality-image"
                         src={AldosImage}
                         alt="Aldo's Pane e Vino"
                         style={{
-                            width: '300px',
-                            height: '250px',
+                            width: window.innerWidth > 768 ? '300px' : '100%',
+                            maxWidth: '300px',
+                            height: window.innerWidth > 768 ? '250px' : '200px',
                             borderRadius: '10px',
                             objectFit: 'cover',
                             border: '3px solid rgba(255, 255, 255, 0.3)',

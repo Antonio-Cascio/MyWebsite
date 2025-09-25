@@ -5,7 +5,7 @@ import githubLogo from '../images/Github.png';
 function Projects() {
     return (
         <div style={{
-            padding: '40px',
+            padding: window.innerWidth > 768 ? '40px' : '20px',
             minHeight: '100vh',
             position: 'relative',
         }}>
@@ -26,13 +26,14 @@ function Projects() {
                 background: 'rgba(255, 255, 255, 0.9)',
                 backdropFilter: 'blur(10px)',
                 borderRadius: '20px',
-                padding: '40px',
+                padding: window.innerWidth > 768 ? '40px' : '20px',
                 border: '1px solid rgba(51, 107, 135, 0.2)',
                 color: '#2F4858',
             }}>
                 <div style={{
                     display: 'flex',
-                    gap: '40px',
+                    flexDirection: window.innerWidth > 768 ? 'row' : 'column',
+                    gap: window.innerWidth > 768 ? '40px' : '20px',
                     alignItems: 'flex-start',
                 }}>
 

@@ -25,9 +25,8 @@ function WorkExperience() {
                 maxWidth: '1200px',
                 margin: '0 auto',
                 display: 'grid',
-                gridTemplateColumns: 'repeat(2, 1fr)',
-                gap: '40px',
-                marginLeft: '100px',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                gap: '30px',
                 padding: '20px',
             }}>
                 <div

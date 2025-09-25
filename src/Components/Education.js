@@ -52,7 +52,7 @@ function Education() {
     return (
 
         <div style={{
-            padding: '40px',
+            padding: window.innerWidth > 768 ? '40px' : '20px',
             minHeight: '100vh',
             position: 'relative',
             overflow: 'hidden',
@@ -67,6 +67,7 @@ function Education() {
                 left: '100px',
                 zIndex: 1,
                 animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite',
+                display: window.innerWidth > 768 ? 'block' : 'none',
             }}>
                 <img src={Nova} alt="Nova" style={{
                     width: '150px',
@@ -81,6 +82,7 @@ function Education() {
                 right: '100px',
                 zIndex: 1,
                 animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite',
+                display: window.innerWidth > 768 ? 'block' : 'none',
             }}>
                 <img src={WildCat} alt="WildCat" style={{
                     width: '140px',
@@ -91,7 +93,7 @@ function Education() {
 
 
             <div style={{
-                padding: '40px',
+                padding: window.innerWidth > 768 ? '40px' : '20px',
                 minHeight: '100vh',
                 position: 'relative',
             }}>
@@ -112,7 +114,7 @@ function Education() {
                     background: 'rgba(255, 255, 255, 0.9)',
                     backdropFilter: 'blur(10px)',
                     borderRadius: '20px',
-                    padding: '40px',
+                    padding: window.innerWidth > 768 ? '40px' : '20px',
                     border: '1px solid rgba(51, 107, 135, 0.2)',
                     color: '#2F4858',
                 }}>
@@ -148,8 +150,8 @@ function Education() {
 
                     <div style={{
                         display: 'grid',
-                        gridTemplateColumns: 'repeat(2, 1fr)',
-                        gap: '30px',
+                        gridTemplateColumns: window.innerWidth > 768 ? 'repeat(2, 1fr)' : '1fr',
+                        gap: '20px',
                         marginTop: '40px',
                     }}>
                         <div style={{

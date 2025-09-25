@@ -55,7 +55,7 @@ function ProfessionalDevelopment() {
 
     return (
         <div style={{
-            padding: '40px',
+            padding: window.innerWidth > 768 ? '40px' : '20px',
             minHeight: '100vh',
             position: 'relative',
             overflow: 'hidden',
@@ -70,6 +70,7 @@ function ProfessionalDevelopment() {
                 left: '50px',
                 zIndex: 1,
                 animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite',
+                display: window.innerWidth > 768 ? 'block' : 'none',
             }}>
                 <img src={Leadership} alt="Leadership" style={{
                     width: '170px',
@@ -84,6 +85,7 @@ function ProfessionalDevelopment() {
                 right: '100px',
                 zIndex: 1,
                 animation: 'float2 7s ease-in-out infinite, pulse2 5s ease-in-out infinite',
+                display: window.innerWidth > 768 ? 'block' : 'none',
             }}>
                 <img src={BoysState} alt="BoysState" style={{
                     width: '170px',
@@ -94,7 +96,7 @@ function ProfessionalDevelopment() {
 
 
             <div style={{
-                padding: '40px',
+                padding: window.innerWidth > 768 ? '40px' : '20px',
                 minHeight: '100vh',
                 position: 'relative',
             }}>
@@ -112,7 +114,7 @@ function ProfessionalDevelopment() {
                 <div>
                     <div style={{
                         display: 'grid',
-                        gridTemplateColumns: 'repeat(2, 1fr)',
+                        gridTemplateColumns: window.innerWidth > 768 ? 'repeat(2, 1fr)' : '1fr',
                         gap: '30px',
                         marginTop: '20px',
                     }}>
