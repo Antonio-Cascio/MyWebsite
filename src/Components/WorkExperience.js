@@ -96,8 +96,8 @@ function WorkExperience() {
                         e.target.style.background = 'rgba(255, 255, 255, 0.9)';
                     }}
                 >
-                    <h3 style={{ fontSize: '1.8em', marginBottom: '20px', color: '#2F4858' }}>Aldo's Pane e Vino 🥖</h3>
-                    <p style={{ fontSize: '1.1em', opacity: 0.9, color: '#617D8A' }}>Discover my experience at Aldo's</p>
+                    <h3 style={{ fontSize: '1.8em', marginBottom: '20px', color: '#2F4858' }}>Aldo&apos;s Pane e Vino 🥖</h3>
+                    <p style={{ fontSize: '1.1em', opacity: 0.9, color: '#617D8A' }}>Discover my experience at Aldo&apos;s</p>
                 </div>
             </div>
         </div>

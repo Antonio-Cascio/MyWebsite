@@ -142,7 +142,7 @@ function Education() {
                         color: '#617D8A',
                     }}>
                         <p style={{ marginBottom: '15px' }}>
-                        I started my journey at Villanova's College of Liberal Arts and Sciences, studying Computer Science in the Fall of 2024. I am currently a Sophomore and expected to graduate in May 2028.
+                        I started my journey at Villanova&apos;s College of Liberal Arts and Sciences, studying Computer Science in the Fall of 2024. I am currently a Sophomore and expected to graduate in May 2028.
                         </p>
                     </div>
 
@@ -180,7 +180,7 @@ function Education() {
                             gridColumn: 'span 2',
                         }}>
                             <h4 style={{ fontSize: '1.2em', marginBottom: '10px', color: '#2F4858' }}>Honors</h4>
-                            <p style={{ color: '#617D8A' }}>Dean's List (Fall 2024, Spring 2025)</p>
+                            <p style={{ color: '#617D8A' }}>Dean&apos;s List (Fall 2024, Spring 2025)</p>
                         </div>
 
                         <div style={{

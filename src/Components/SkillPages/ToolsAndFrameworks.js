@@ -1,10 +1,8 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import ReactLogo from '../../images/React.png';
 import MaterialUI from '../../images/MUI.png';
 
 function ToolsAndFrameworks() {
-    const navigate = useNavigate();
 
     const floatingAnimation = `
     @keyframes float {

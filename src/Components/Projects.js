@@ -1,10 +1,8 @@
 import React from 'react';
 import PreviewVideo from './PreviewVideo';
-import { useNavigate } from 'react-router-dom';
 import githubLogo from '../images/Github.png';
 
 function Projects() {
-    const navigate = useNavigate();
     return (
         <div style={{
             padding: '40px',

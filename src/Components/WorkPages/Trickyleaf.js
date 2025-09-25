@@ -1,11 +1,9 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import Image from '../../images/TrickyLeaf.jpeg';
 import Tricky from '../../images/trick.png';
 import Computer from '../../images/Computer.png';
 
 function TrickyLeaf() {
-    const navigate = useNavigate();
 
     const floatingAnimation = `
     @keyframes float {

@@ -1,10 +1,8 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import Leadership from '../../images/leader.png';
 import BoysState from '../../images/BoysState.png';
 
 function ProfessionalDevelopment() {
-    const navigate = useNavigate();
 
     const floatingAnimation = `
 

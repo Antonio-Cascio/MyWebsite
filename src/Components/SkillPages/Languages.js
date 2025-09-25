@@ -1,12 +1,9 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import Italia from '../../images/Ita.png';
 import USA from '../../images/America.png';
 
 
 function Languages() {
-
-    const navigate = useNavigate();
 
     const floatingAnimation = `
     @keyframes float {

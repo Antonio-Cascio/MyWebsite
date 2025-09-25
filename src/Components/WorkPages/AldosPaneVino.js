@@ -1,5 +1,4 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import AldosImage from '../../images/Aldos.jpeg';
 import WineImage from '../../images/wine.png';
 import BreadImage from '../../images/longBread.png';
@@ -7,7 +6,6 @@ import WineImage2 from '../../images/WineBottle.png';
 import PastaImage from '../../images/Pasta.png';
 
 function AldosPaneVino() {
-    const navigate = useNavigate();
 
     // CSS animations for the decorative images
     const floatingAnimation = `
@@ -129,7 +127,7 @@ function AldosPaneVino() {
                 position: 'relative',
                 zIndex: 2,
             }}>
-                Aldo's Pane Vino
+                Aldo&apos;s Pane Vino
             </h2>
 
             <div style={{

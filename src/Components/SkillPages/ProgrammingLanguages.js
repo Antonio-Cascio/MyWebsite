@@ -1,10 +1,8 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import Java from '../../images/Java.png';
 import JavaScript from '../../images/JS.png';
 
 function ProgrammingLanguages() {
-    const navigate = useNavigate();
 
     const floatingAnimation = `
         @keyframes float {

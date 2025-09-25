@@ -55,7 +55,7 @@ function HomeContent() {
                             <p className="profile-title">Computer Science Student at Villanova University</p>
                             <p className="profile-description">
                 Passionate about software development and always seeking new opportunities.
-                I'm a student from Wyckoff, NJ, currently pursuing a Bachelor's degree in Computer Science.
+                I&apos;m a student from Wyckoff, NJ, currently pursuing a Bachelor&apos;s degree in Computer Science.
                             </p>
                         </div>
 
@@ -163,15 +163,15 @@ function HomeContent() {
             {/* Resume Modal */}
             <ModalPortal>
                 {isModalOpen && (
-                    <div 
-                        className="modal-overlay" 
+                    <div
+                        className="modal-overlay"
                         onClick={() => setIsModalOpen(false)}
                         onKeyDown={(e) => e.key === 'Escape' && setIsModalOpen(false)}
                         role="button"
                         tabIndex={0}
                     >
-                        <div 
-                            className="modal-content" 
+                        <div
+                            className="modal-content"
                             onClick={e => e.stopPropagation()}
                             onKeyDown={(e) => e.key === 'Enter' && e.stopPropagation()}
                             role="button"
@@ -261,8 +261,8 @@ function NavigationButtons() {
                             <img src={githubLogo} alt="GitHub" className="social-icon" />
                         </a>
                     </div>
-                    <div 
-                        className="back-container" 
+                    <div
+                        className="back-container"
                         onClick={() => navigate(-1)}
                         onKeyDown={(e) => e.key === 'Enter' && navigate(-1)}
                         role="button"
@@ -275,15 +275,15 @@ function NavigationButtons() {
                 {/* Resume Modal for Navigation Bar */}
                 <ModalPortal>
                     {isModalOpen && (
-                        <div 
-                            className="modal-overlay" 
+                        <div
+                            className="modal-overlay"
                             onClick={() => setIsModalOpen(false)}
                             onKeyDown={(e) => e.key === 'Escape' && setIsModalOpen(false)}
                             role="button"
                             tabIndex={0}
                         >
-                            <div 
-                                className="modal-content" 
+                            <div
+                                className="modal-content"
                                 onClick={e => e.stopPropagation()}
                                 onKeyDown={(e) => e.key === 'Enter' && e.stopPropagation()}
                                 role="button"
