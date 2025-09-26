@@ -55,7 +55,7 @@ function HomeContent() {
                             <p className="profile-title">Computer Science Student at Villanova University</p>
                             <p className="profile-description">
                 Passionate about software development and always seeking new opportunities.
-                I&apos;m a student from Wyckoff, NJ, currently pursuing a Bachelor&apos;s degree in Computer Science.
+                I&apos;m a student from Wyckoff, NJ, currently pursuing a Bachelor of Science in Computer Science.
                             </p>
                         </div>
 
