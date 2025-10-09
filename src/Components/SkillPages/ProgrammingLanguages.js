@@ -151,6 +151,24 @@ function ProgrammingLanguages() {
                                 <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>HTML</h3>
                                 <p style={{ fontWeight: 'bold' }}>Proficiency in HTML</p>
                             </div>
+                            <div style={{
+                                background: 'rgba(186, 217, 217, 0.4)',
+                                padding: '20px',
+                                borderRadius: '10px',
+                                border: '2px solid rgba(51, 107, 135, 0.2)',
+                            }}>
+                                <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>React</h3>
+                                <p style={{ fontWeight: 'bold' }}>Proficiency in ReactJS</p>
+                            </div>
+                            <div style={{
+                                background: 'rgba(186, 217, 217, 0.4)',
+                                padding: '20px',
+                                borderRadius: '10px',
+                                border: '2px solid rgba(51, 107, 135, 0.2)',
+                            }}>
+                                <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>SQL</h3>
+                                <p style={{ fontWeight: 'bold' }}>Proficiency in SQL</p>
+                            </div>  
                         </div>
                     </div>
                 </div>

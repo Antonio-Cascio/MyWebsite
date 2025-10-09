@@ -180,6 +180,7 @@ function AldosPaneVino() {
                                 <li style={{ marginBottom: '15px', color: '#617D8A' }}>• Fostered positive workplace environment through quality customer service and consistent communication with management.</li>
                                 <li style={{ marginBottom: '15px', color: '#617D8A' }}>• Developed talents through rigorous training.</li>
                                 <li style={{ marginBottom: '15px', color: '#617D8A' }}>• Adapted through problems that have arisen during the workday.</li>
+                                <li style={{ marginBottom: '15px', color: '#617D8A' }}>• Currently developing a new website for the restaurant.</li>
                             </ul>
                         </div>
                     </div>

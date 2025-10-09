@@ -142,7 +142,15 @@ function ToolsAndFrameworks() {
                             <h3 style={{ fontSize: '1.5em', marginBottom: '15px' }}>SQLite</h3>
                             <p style={{ fontWeight: 'bold' }}>Database management system</p>
                         </div>
-
+                        <div style={{
+                            background: 'rgba(186, 217, 217, 0.4)',
+                            padding: '20px',
+                            borderRadius: '10px',
+                            border: '2px solid rgba(51, 107, 135, 0.2)',
+                        }}>
+                            <h3 style={{ fontSize: '1.5em', marginBottom: '15px' }}>Tailwind CSS</h3>
+                            <p style={{ fontWeight: 'bold' }}>CSS framework</p>
+                        </div>
                         <div style={{
                             background: 'rgba(186, 217, 217, 0.4)',
                             padding: '20px',
@@ -152,6 +160,7 @@ function ToolsAndFrameworks() {
                             <h3 style={{ fontSize: '1.5em', marginBottom: '15px' }}>JWT Authentication</h3>
                             <p style={{ fontWeight: 'bold'   }}>Authentication and authorization</p>
                         </div>
+
                     </div>
                 </div>
             </div>

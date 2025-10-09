@@ -9,6 +9,7 @@ function Skills() {
             padding: '40px',
             minHeight: '100vh',
             position: 'relative',
+
         }}>
             <h2 style={{
                 textAlign: 'center',

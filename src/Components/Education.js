@@ -184,6 +184,16 @@ function Education() {
                             <h4 style={{ fontSize: '1.2em', marginBottom: '10px', color: '#2F4858' }}>Honors</h4>
                             <p style={{ color: '#617D8A' }}>Dean&apos;s List (Fall 2024, Spring 2025)</p>
                         </div>
+                        <div style={{
+                            background: 'rgba(186, 217, 217, 0.3)',
+                            padding: '20px',
+                            borderRadius: '10px',
+                            border: '1px solid rgba(51, 107, 135, 0.2)',
+                            gridColumn: 'span 2',
+                        }}>
+                            <h4 style={{ fontSize: '1.2em', marginBottom: '10px', color: '#2F4858' }}>Clubs and Organizations</h4>
+                            <p style={{ color: '#617D8A' }}>Villanova Software Engineers, Villanova Leadership Program</p>
+                        </div>
 
                         <div style={{
                             background: 'rgba(186, 217, 217, 0.3)',

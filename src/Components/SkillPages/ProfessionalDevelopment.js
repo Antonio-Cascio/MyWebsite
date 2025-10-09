@@ -124,6 +124,20 @@ function ProfessionalDevelopment() {
                             borderRadius: '10px',
                             border: '2px solid rgba(51, 107, 135, 0.2)',
                         }}>
+                            <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>Villanova Software Engineers</h3>
+                            <h4 style={{ color: '#336B87' }}> <a href="https://www.villanovasoftwareengineers.com/"> Villanova University, Pennsylvania</a></h4>
+                            <h5>August 2025 - Present</h5>
+                            <p style={{ fontWeight: 'bold' }}>• Developed in the frontend of our Financial Literacy project.</p>
+                            <p style={{ fontWeight: 'bold' }}>• Created and added restrictions to a GitHub repository for the entirety of the user interface.</p>
+                            <p style={{ fontWeight: 'bold' }}>• Collaborated with other members and leaders to work on real-world projects.</p>
+                            <p style={{ fontWeight: 'bold' }}>•Aided other members with setting up their GitHub.</p>
+                        </div>
+                        <div style={{
+                            background: 'rgba(186, 217, 217, 0.4)',
+                            padding: '20px',
+                            borderRadius: '10px',
+                            border: '2px solid rgba(51, 107, 135, 0.2)',
+                        }}>
                             <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2F4858' }}>Villanova Leadership Program</h3>
                             <h4 style={{ color: '#336B87' }}> <a href="https://www1.villanova.edu/university.html"> Villanova University, Pennsylvania</a></h4>
                             <h5>January 2025 - April 2025</h5>
